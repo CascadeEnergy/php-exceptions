@@ -9,7 +9,6 @@ class ExceptionWithContextTest extends \PHPUnit_Framework_TestCase
     public function testItShouldPassThroughStandardDataToTheBaseExceptionClass()
     {
         $previousException = new \Exception('previousMessage');
-
         $exception = new ExceptionWithContext('message', [], 42, $previousException);
 
         $this->assertEquals('message', $exception->getMessage());
@@ -20,7 +19,6 @@ class ExceptionWithContextTest extends \PHPUnit_Framework_TestCase
     public function testItShouldAllowTheContextToBeRetrieved()
     {
         $context = new \stdClass();
-
         $exception = new ExceptionWithContext('message', $context);
 
         $this->assertSame($context, $exception->getContext());
