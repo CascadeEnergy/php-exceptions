@@ -1,6 +1,6 @@
 <?php
 
-namespace Cascade\Exceptions;
+namespace CascadeEnergy\Exceptions;
 
 /**
  * A custom exception class which provides a context argument for later reference.

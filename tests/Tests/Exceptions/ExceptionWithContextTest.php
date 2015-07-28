@@ -1,8 +1,8 @@
 <?php
 
-namespace Cascade\Tests\Exceptions;
+namespace CascadeEnergy\Tests\Exceptions;
 
-use Cascade\Exceptions\ExceptionWithContext;
+use CascadeEnergy\Exceptions\ExceptionWithContext;
 
 class ExceptionWithContextTest extends \PHPUnit_Framework_TestCase
 {
