@@ -1,5 +1,5 @@
 {
-  "name": "CascadeEnergy/php-exceptions",
+  "name": "cascade-energy/php-exceptions",
   "description": "Base exception classes for PHP libraries",
   "minimum-stability": "stable",
   "license": "MIT",
